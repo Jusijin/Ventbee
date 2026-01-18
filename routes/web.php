@@ -11,6 +11,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/test', function(){
+    return 'OK';
+});
+
 Route::get('/lang/{locale}', function($locale){
     if(!in_array($locale, ['en', 'id'])){
         abort(400);
