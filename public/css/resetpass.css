@@ -1,0 +1,185 @@
+body {
+  background-color: #f1efea;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120vh;
+  margin: 10px;
+}
+
+.logo {
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.logo img {
+  height: 90px;
+  width: 300px;
+}
+
+.reset-box {
+  background-color: #fff;
+  padding: 100px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 700px;
+}
+
+.reset-box h2 {
+  margin-top: -60px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.reset-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.reset-box p {
+  font-size: 14px;
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #B8B8B8;
+}
+
+.password-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.password-group input {
+  width: 100%;
+  padding: 12px 40px 12px 12px;
+  border-radius: 10px;
+  background-color: #B8B8B8;
+  border: none;
+  font-size: 16px;
+}
+
+.toggle-icon {
+  position:absolute;
+  right: 10px;
+  top: 40%;
+  transform: translateY(50%);
+  cursor: pointer;
+  color: #A7A7A7;
+}
+
+.toggleRE-icon {
+  position:absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(50%);
+  cursor: pointer;
+  color: #A7A7A7;
+}
+
+.password-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.reset-box button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  padding: 10px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+.reset-box button:hover {
+  background-color: #034b89;
+}
+
+.click-but{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.alert-reset {
+  border-radius: 15px;
+  margin-top: -1px;
+  width: 700px;
+}
+
+.click-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.click-login p{
+  font-size: 13px;
+  color: #666;
+}
+
+.text-align{
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .reset-box {
+    width: 90%;
+    padding: 100px;
+  }
+
+  .logo img {
+    width: 200px;
+    height: auto;
+  }
+
+  .reset-box button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .reset-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .logo h1 {
+    font-size: 24px;
+  }
+
+  .reset-box h2 {
+    font-size: 20px;
+  }
+
+  .reset-box p {
+    font-size: 13px;
+  }
+}
